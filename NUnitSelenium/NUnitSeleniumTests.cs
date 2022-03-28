@@ -60,7 +60,7 @@ namespace NUnitSelenium
             //-----------------------------------Create instance for passing capabilities-----------------------------------------------------------------
             AppiumOptions capabilities = new AppiumOptions();
             capabilities.AddAdditionalCapability("user", "shubhamr");
-            capabilities.AddAdditionalCapability("accessKey", "M1hTTfelp95y0WKq0MSKORBzWD7xpFGOTv5KlMTZ18qnAcGjId");
+            capabilities.AddAdditionalCapability("accessKey", "");
             capabilities.AddAdditionalCapability("app",app);
             capabilities.AddAdditionalCapability("deviceName", deviceName);
             capabilities.AddAdditionalCapability("platformVersion", platformVersion);
